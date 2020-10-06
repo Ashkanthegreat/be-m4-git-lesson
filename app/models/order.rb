@@ -21,6 +21,7 @@ class Order < ApplicationRecord
       end
     end
   end
+  
 
   def self.total_ordered
     where(status: 0).count
