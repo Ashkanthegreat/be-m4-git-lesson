@@ -29,6 +29,7 @@ class Cart
   def total
     contents.values.sum
   end
+  
 
   def remove_item(id)
     contents.delete(id.to_s)
